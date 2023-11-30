@@ -1,5 +1,14 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
-  return <h1> Hello word !</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Teste</h1>
+      <Footer />
+    </>
+  );
 }
 
 export default App;

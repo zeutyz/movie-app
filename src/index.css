@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #3498db;
+  --socondy-color: #2ecc71;
+  --main-text-color: #202020;
+  --menu-text-color: #346793;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

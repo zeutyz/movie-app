@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+
+  width: 1120px;
+  height: 64px;
+  margin: auto;
+
+  border-radius: 0px 0px 32px 32px;
+  background: linear-gradient(60deg, #010a1e -5%, #1c65a7 30%, #f6f6f6 30.2%);
+  box-shadow: -6px 11px 32px 1px rgba(0, 0, 0, 0.32);
+}
+
+.header span {
+  margin-left: 64px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.header nav {
+  margin-right: 64px;
+}
+
+.header nav a {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: var(--menu-text-color);
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.border-header {
+  width: 1122px;
+  height: 65px;
+  margin: auto;
+
+  border-radius: 0px 0px 33px 33px;
+  background: linear-gradient(0deg, #48a1ee 30%, transparent 80%);
+}
